@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Old';
+  src: url('../Fonts/03812_BaskervilleOldFace.ttf') format('truetype');
+  
+}
+
+.font{
+  font-family: "Old";
+  color: #996DB5;
+}
+
+.botonRecordar{
+  font-family: "Old";
+  background-color: #996DB5;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px; 
+    height: 50px;
+    width: 170px;
+    font-family: 'Futura';
+    font-size: 20px;
+    color: #FFF6E9;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+
+.botonInspo{
+  font-family: "Old";
+  background-color: #996DB5;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px; 
+    height: 50px;
+    width: 130px;
+    font-family: 'Futura';
+    font-size: 20px;
+    color: #FFF6E9;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+
+
+html, body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0;
+} 
+
+.contenedor {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+  position: relative;
+  flex-direction: column; 
+}
+
+.botonMusica {
+  background-color:#FFFF; ;
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 0; 
+  cursor: pointer;
+  font-family: 'Futura';
+  font-size: 40px;
+  color:  #FFFF;
+  text-align: center;
+  text-decoration: none;
+  position: relative; 
+}
+
+
+.icon {
+  display: flex; /* Alinea los iconos horizontalmente con las palabras */
+  align-items: center; /* Alinea verticalmente los iconos con las palabras */
+  color: #F8FBFC;
+}
+
+.icon-background {
+  width: 50px; 
+  height: 50px; 
+  background-color: #996DB5;
+  border-radius: 50%; /* Hace que el fondo sea circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ri-play-fill,
+.ri-pause-fill {
+  font-size: 24px;
+}
+
+.play{
+  font-size: 10px;
+
+}
