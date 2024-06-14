@@ -65,7 +65,7 @@ html, body {
 }
 
 .botonMusica {
-  background-color:#FFFF; ;
+  background-color:transparent ;
   padding: 0%;
   display: flex;
   align-items: center;
