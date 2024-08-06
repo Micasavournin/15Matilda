@@ -7,6 +7,7 @@ import Page6 from "./Page6"
 import Page7 from "./Page7"
 import Playlist from "./Playlist"
 import './App.css';
+import Page41 from "./Page4-1"
 
 const Page = () => {
     return (
@@ -34,6 +35,9 @@ const Page = () => {
                         <Page4/>
                     </div>
                 
+                    <div className='container'>
+                        <Page41/>
+                    </div>
             
                     <div className='container'>
                         <Page5/>

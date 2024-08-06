@@ -1,6 +1,6 @@
 
 const Page3 = () => {
-    const locationUrl2 = "https://maps.app.goo.gl/J7dK1AnULB91aQBT7";
+    const locationUrl2 = "https://g.co/kgs/9vJ5RF9";
     return (
         <div className="contenedor">
             <img className="imagen marcoMarti" src="https://firebasestorage.googleapis.com/v0/b/tarjeta-invitacion-2f4f0.appspot.com/o/tarjeta%202%20(15)-03.jpg?alt=media&token=eb259f8e-5abb-4f38-9dec-b92e8b1572f7" alt="" style={{ maxWidth: '100%', maxHeight: '100%' }} />

@@ -2,7 +2,7 @@ import  { useState, useEffect } from 'react';
 
 const Page2 = () => {
 
-    const googleCalendarUrl = "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MzYwcGdrZTA5Z2didHZhaW12NDJzbXJmNDcgbWljYWFzYXZvb0Bt&tmsrc=micaasavoo%40gmail.com";
+    const googleCalendarUrl = "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NXVvdTZyYmI3dnNvZDJhZTFyMnU5M2tjZjAgbWljYWFzYXZvb0Bt&tmsrc=micaasavoo%40gmail.com";
 
     const targetDate = new Date('2024-09-12T23:59:59').getTime();
     const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
