@@ -20,7 +20,7 @@ const Playlist = () => {
             <div className="botonMusica" style={{ position: 'absolute', top: '83%', left: '50%', transform: 'translate(-50%, -50%)' }}>
 
                 <audio
-        src="https://firebasestorage.googleapis.com/v0/b/tarjeta-invitacion-2f4f0.appspot.com/o/Y2meta.app%20-%20Justin%20Timberlake%20-%20Can't%20Stop%20The%20Feeling!%20%5BLyrics%5D%20(128%20kbps).mp3?alt=media&token=8b3828af-b1b6-437f-aa16-8961db4256b0"
+        src="https://firebasestorage.googleapis.com/v0/b/tarjeta-invitacion-2f4f0.appspot.com/o/Y2meta.app%20-%20Taylor%20Swift%20-%20Shake%20It%20Off%20(Taylor's%20Version)%20(Espa%C3%B1ol%20%2B%20Lyrics)%20(128%20kbps).mp3?alt=media&token=c38d3ef0-3842-4ef8-b715-97365f9437d5"
         ref={audioRef}
         preload="metadata"
       />
